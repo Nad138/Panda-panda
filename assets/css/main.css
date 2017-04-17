@@ -36,3 +36,11 @@ button{
   color: white;
   border: none;
 }
+
+span{
+  display: inline-block;
+  width: 420px;
+  color: white;
+  text-align: justify;
+  margin: 15px;
+}
