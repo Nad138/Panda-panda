@@ -50,3 +50,14 @@ span{
   position: absolute;
   font-size: 15px;
 }
+.origin-box, .history-box{
+  display: inline-block;
+  width: 500px;
+  text-align: justify;
+  margin: 15px;
+  color: #e7bd4c;
+}
+p{
+  display: block;
+  margin: 20px;
+}
