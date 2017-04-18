@@ -4,6 +4,7 @@ body{
 }
 ul{
   padding-left: 170px;
+  margin-top: 0px;
 }
 li{
   display: inline-block;
@@ -22,7 +23,12 @@ header{
 div{
   text-align: center;
 }
-
+ figure{
+   text-align: center;
+   display: inline-block;
+   margin: 5px;
+   position: relative;
+ }
 img{
   height: 150px;
   width: 150px;
@@ -35,12 +41,12 @@ button{
   background-color: #ca3c25;
   color: white;
   border: none;
+  margin: 10px;
 }
 
 span{
-  display: inline-block;
-  width: 420px;
+  width: inherit;
   color: white;
-  text-align: justify;
-  margin: 15px;
+  position: absolute;
+  font-size: 15px;
 }
